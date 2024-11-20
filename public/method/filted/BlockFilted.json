@@ -1,0 +1,66 @@
+{
+    "_count": 20,
+    "biome": {
+        "note": "生物群系",
+        "return": {
+            "type": "Biome",
+            "note": "生物群系"
+        }
+    },
+    "position": {
+        "note": "位置",
+        "return": {
+            "type": "Vec3",
+            "note": "位置"
+        }
+    },
+    "name": {
+        "note": "方块名",
+        "return": {
+            "type": "String",
+            "note": "方块名"
+        }
+    },
+    "hardness": {
+        "note": "硬度",
+        "return": {
+            "type": "Number",
+            "note": "硬度"
+        }
+    },
+    "displayName": {
+        "note": "展示名",
+        "return": {
+            "type": "String",
+            "note": "展示名"
+        }
+    },
+    "boundingBox": {
+        "note": "碰撞箱（只可能为以下值之一:block, empty）",
+        "return": {
+            "type": "String",
+            "note": "碰撞箱"
+        }
+    },
+    "transparent": {
+        "note": "是否透明",
+        "return": {
+            "type": "boolean",
+            "note": "是否透明"
+        }
+    },
+    "diggable": {
+        "note": "能否被挖掘",
+        "return": {
+            "type": "Boolean",
+            "note": "能否被挖掘"
+        }
+    },
+    "drops": {
+        "note": "掉落物的id列表",
+        "return": {
+            "type": "Array[number]",
+            "note": ""
+        }
+    }
+}

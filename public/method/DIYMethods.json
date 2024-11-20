@@ -1,0 +1,58 @@
+{
+    "Bot": {
+        "DIYfindBlockByType": {
+            "isAsync": false,
+            "note": "找附近的某类方块的一个方块",
+            "return": {
+                "type": "Block",
+                "note": "找到的方块"
+            },
+            "args": [
+                {
+                    "type": "number",
+                    "note": "方块类别id"
+                },
+                {
+                    "type": "number",
+                    "note": "寻找的距离"
+                }
+            ]
+        },
+        "DIYfindBlocksByType": {
+            "isAsync": false,
+            "note": "找附近的某类方块的所有方块",
+            "return": {
+                "type": "Array[Block]",
+                "note": "找到的方块列表"
+            },
+            "args": [
+                {
+                    "type": "number",
+                    "note": "方块类别id"
+                },
+                {
+                    "type": "number",
+                    "note": "寻找的距离"
+                },
+                {
+                    "type": "count",
+                    "note": "找到的上限数量"
+                }
+            ]
+        },
+        "DIYnearestEntityByType": {
+            "isAsync": false,
+            "note": "找附近的某类实体的一个实体",
+            "return": {
+                "type": "Entity",
+                "note": "找到的实体"
+            },
+            "args": [
+                {
+                    "type": "number",
+                    "note": "实体类别id"
+                }
+            ]
+        }
+    }
+}

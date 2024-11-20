@@ -1,0 +1,63 @@
+{
+    "time": "241107-144720",
+    "accounts": [
+        {
+            "walletAddr": "0x8da02de316f28c27c6769a8f0b76f38ca24bc3f9",
+            "botdatas": [
+                {
+                    "username": "0x5cc92dc51806b",
+                    "sign": "0x5cc92dc51806bfb58292943e67c56ece68e3d5c3d0472a60f898018cf2a4b37716b9c0e5dd4f468b0327cc3b210015b58da1254a7b287149d4f932ccdf5620421b",
+                    "createTime": "241106-234413",
+                    "note": ""
+                },
+                {
+                    "username": "0x57e88d68f85a1",
+                    "sign": "0x57e88d68f85a109e594438956ac7b6ac7850d13fec7d6d40dcbbad0934c40e2c4372075f7d52481f1385936463e3be5e0371ef31cb62ae8d2c6fcff8b89d69ec1c",
+                    "createTime": "241106-234418",
+                    "note": ""
+                }
+            ]
+        },
+        {
+            "walletAddr": "0x083cda46b87b1ac8b6ddc30f998438447874f906",
+            "botdatas": [
+                {
+                    "username": "0x7e3e50eb9ff6f",
+                    "sign": "0x7e3e50eb9ff6f5025425c9e5bdf966dd9c977375fd7585247e21170b51d4609b57bb79024d924e4a3cd05da986ad26337a2c69762a7885663616bf520cd7f4b31b",
+                    "createTime": "241106-234505",
+                    "note": ""
+                },
+                {
+                    "username": "0x229d8223ae55c",
+                    "sign": "0x229d8223ae55c4158641c216de3f3ad0a2cf2bd1a16cf7312cf300232f0d64277fa8d4d7b9f45d6b87a465bced8f32c3c7b371a1e52e60ac05f7cf723aee26401c",
+                    "createTime": "241106-234509",
+                    "note": ""
+                },
+                {
+                    "username": "0xd9ca4056ef535",
+                    "sign": "0xd9ca4056ef5353f2fb3d97acc8022319be0add513b86d9546ad665834da2e4113d99b3bcfb732ffc707877f7d28aa3a648fd8fae8a1358dc39024c719cdb30c01c",
+                    "createTime": "241106-234512",
+                    "note": ""
+                },
+                {
+                    "username": "0x2b211669adaeb",
+                    "sign": "0x2b211669adaeb89f3ac7d3629168844fa659a6f7fe380f68f67aa0775a31b0ee7d00071126b5da58c962953076ca48773d738b353e6f4461653be5cc36fb51c21c",
+                    "createTime": "241107-144641",
+                    "note": ""
+                },
+                {
+                    "username": "0xed3fc4031013d",
+                    "sign": "0xed3fc4031013d9eb73f98a084cc8361c2c34bf50bb54b2dc00004834b7ff920e7ecaf3525458e565c2361e6e98396243fb45a499108fcaa6919938ff882bf7121c",
+                    "createTime": "241107-144646",
+                    "note": ""
+                },
+                {
+                    "username": "0xc742d471254a7",
+                    "sign": "0xc742d471254a796f2f11615011b3999f97cc79239d98e34469b0bdf3eadf8ff400747389184bcb3a258056caa0ae9d4ecdb38f78118a0130b76e9259a34b7d141c",
+                    "createTime": "241107-144714",
+                    "note": ""
+                }
+            ]
+        }
+    ]
+}

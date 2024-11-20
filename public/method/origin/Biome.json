@@ -1,0 +1,81 @@
+{
+    "_count": 6,
+    "color": {
+        "note": "",
+        "return": {
+            "type": "",
+            "note": ""
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "height": {
+        "note": "",
+        "return": {
+            "type": "",
+            "note": ""
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "name": {
+        "note": "",
+        "return": {
+            "type": "",
+            "note": ""
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "rainfall": {
+        "note": "",
+        "return": {
+            "type": "",
+            "note": ""
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "temperature": {
+        "note": "",
+        "return": {
+            "type": "",
+            "note": ""
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "id": {
+        "note": "",
+        "return": {
+            "type": "Number",
+            "note": ""
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    }
+}

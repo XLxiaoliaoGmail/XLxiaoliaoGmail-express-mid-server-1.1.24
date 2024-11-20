@@ -1,0 +1,94 @@
+{
+    "_count": 7,
+    "uuid": {
+        "note": "",
+        "return": {
+            "type": "String",
+            "note": ""
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "username": {
+        "note": "",
+        "return": {
+            "type": "String",
+            "note": ""
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "displayName": {
+        "note": "",
+        "return": {
+            "type": "ChatMessage",
+            "note": ""
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "skinData": {
+        "note": "",
+        "return": {
+            "type": "",
+            "note": ""
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "gamemode": {
+        "note": "",
+        "return": {
+            "type": "",
+            "note": ""
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "ping": {
+        "note": "",
+        "return": {
+            "type": "",
+            "note": ""
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "entity": {
+        "note": "",
+        "return": {
+            "type": "Entity",
+            "note": ""
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    }
+}

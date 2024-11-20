@@ -1,0 +1,250 @@
+{
+    "_count": 19,
+    "acceptOutsideWindowClick": {
+        "note": "",
+        "return": {
+            "type": "Function",
+            "note": ""
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "acceptInventoryClick": {
+        "note": "",
+        "return": {
+            "type": "Function",
+            "note": ""
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "acceptNonInventorySwapAreaClick": {
+        "note": "",
+        "return": {
+            "type": "Function",
+            "note": ""
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "acceptSwapAreaLeftClick": {
+        "note": "",
+        "return": {
+            "type": "Function",
+            "note": ""
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "acceptSwapAreaRightClick": {
+        "note": "",
+        "return": {
+            "type": "Function",
+            "note": ""
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "acceptCraftingClick": {
+        "note": "",
+        "return": {
+            "type": "Function",
+            "note": ""
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "id": {
+        "note": "",
+        "return": {
+            "type": "Number",
+            "note": ""
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "type": {
+        "note": "",
+        "return": {
+            "type": "String",
+            "note": ""
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "title": {
+        "note": "",
+        "return": {
+            "type": "String",
+            "note": ""
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "slots": {
+        "note": "",
+        "return": {
+            "type": "Array",
+            "note": ""
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "inventoryStart": {
+        "note": "",
+        "return": {
+            "type": "Number",
+            "note": ""
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "inventoryEnd": {
+        "note": "",
+        "return": {
+            "type": "Number",
+            "note": ""
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "hotbarStart": {
+        "note": "",
+        "return": {
+            "type": "Number",
+            "note": ""
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "craftingResultSlot": {
+        "note": "",
+        "return": {
+            "type": "Number",
+            "note": ""
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "requiresConfirmation": {
+        "note": "",
+        "return": {
+            "type": "Boolean",
+            "note": ""
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "selectedItem": {
+        "note": "",
+        "return": {
+            "type": "",
+            "note": ""
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "close": {
+        "note": "",
+        "return": {
+            "type": "Function",
+            "note": ""
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "withdraw": {
+        "note": "",
+        "return": {
+            "type": "AsyncFunction",
+            "note": ""
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "deposit": {
+        "note": "",
+        "return": {
+            "type": "AsyncFunction",
+            "note": ""
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    }
+}

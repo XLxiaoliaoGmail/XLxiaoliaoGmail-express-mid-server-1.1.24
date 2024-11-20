@@ -1,0 +1,263 @@
+{
+    "_count": 20,
+    "type": {
+        "note": "",
+        "return": {
+            "type": "Number",
+            "note": ""
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "metadata": {
+        "note": "",
+        "return": {
+            "type": "Number",
+            "note": ""
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "light": {
+        "note": "",
+        "return": {
+            "type": "",
+            "note": ""
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "skyLight": {
+        "note": "",
+        "return": {
+            "type": "",
+            "note": ""
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "biome": {
+        "note": "生物群系",
+        "return": {
+            "type": "Biome",
+            "note": "生物群系"
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "position": {
+        "note": "位置",
+        "return": {
+            "type": "Vec3",
+            "note": "位置"
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "stateId": {
+        "note": "",
+        "return": {
+            "type": "Number",
+            "note": ""
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "computedStates": {
+        "note": "",
+        "return": {
+            "type": "Object",
+            "note": ""
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "name": {
+        "note": "方块名",
+        "return": {
+            "type": "String",
+            "note": "方块名"
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "hardness": {
+        "note": "硬度",
+        "return": {
+            "type": "Number",
+            "note": "硬度"
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "displayName": {
+        "note": "展示名",
+        "return": {
+            "type": "String",
+            "note": "展示名"
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "shapes": {
+        "note": "",
+        "return": {
+            "type": "Array",
+            "note": ""
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "boundingBox": {
+        "note": "碰撞箱（只可能为以下值之一:block, empty）",
+        "return": {
+            "type": "String",
+            "note": "碰撞箱"
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "transparent": {
+        "note": "是否透明",
+        "return": {
+            "type": "boolean",
+            "note": "是否透明"
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "diggable": {
+        "note": "能否被挖掘",
+        "return": {
+            "type": "Boolean",
+            "note": "能否被挖掘"
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "material": {
+        "note": "",
+        "return": {
+            "type": "String",
+            "note": ""
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "harvestTools": {
+        "note": "",
+        "return": {
+            "type": "",
+            "note": ""
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "drops": {
+        "note": "掉落物的id列表",
+        "return": {
+            "type": "Array[number]",
+            "note": ""
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "entity": {
+        "note": "",
+        "return": {
+            "type": "",
+            "note": ""
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "painting": {
+        "note": "",
+        "return": {
+            "type": "",
+            "note": ""
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    }
+}

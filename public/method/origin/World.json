@@ -1,0 +1,120 @@
+{
+    "_count": 9,
+    "savingQueue": {
+        "note": "",
+        "return": {
+            "type": "Map",
+            "note": ""
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "unloadQueue": {
+        "note": "",
+        "return": {
+            "type": "Map",
+            "note": ""
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "finishedSaving": {
+        "note": "",
+        "return": {
+            "type": "Promise",
+            "note": ""
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "currentlySaving": {
+        "note": "",
+        "return": {
+            "type": "",
+            "note": ""
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "columns": {
+        "note": "",
+        "return": {
+            "type": "Object",
+            "note": ""
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "chunkGenerator": {
+        "note": "",
+        "return": {
+            "type": "",
+            "note": ""
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "storageProvider": {
+        "note": "",
+        "return": {
+            "type": "",
+            "note": ""
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "savingInterval": {
+        "note": "",
+        "return": {
+            "type": "Number",
+            "note": ""
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "sync": {
+        "note": "",
+        "return": {
+            "type": "WorldSync",
+            "note": ""
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    }
+}

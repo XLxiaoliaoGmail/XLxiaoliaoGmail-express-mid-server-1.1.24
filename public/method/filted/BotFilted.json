@@ -1,0 +1,650 @@
+{
+    "_count": 133,
+    "isSleeping": {
+        "note": "是否正在睡觉",
+        "return": {
+            "type": "boolean",
+            "note": "是否正在睡觉"
+        }
+    },
+    "wake": {
+        "note": "睡醒"
+    },
+    "sleep": {
+        "note": "睡觉",
+        "args": [
+            {
+                "type": "Block",
+                "note": "床方块"
+            }
+        ]
+    },
+    "isABed": {
+        "note": "某方块是否为床",
+        "return": {
+            "type": "boolean",
+            "note": "是否为床"
+        },
+        "args": [
+            {
+                "type": "Block",
+                "note": "床"
+            }
+        ]
+    },
+    "updateSign": {
+        "note": "更改告示牌",
+        "args": [
+            {
+                "type": "block",
+                "note": "告示牌方块"
+            },
+            {
+                "type": "string",
+                "note": "文字"
+            }
+        ]
+    },
+    "canSeeBlock": {
+        "note": "是否能看到某方块",
+        "return": {
+            "type": "boolean",
+            "note": "是否能看到"
+        },
+        "args": [
+            {
+                "type": "Block",
+                "note": "方块"
+            }
+        ]
+    },
+    "blockAt": {
+        "note": "获取某个位置的方块",
+        "return": {
+            "type": "Block",
+            "note": "某个位置的方块"
+        },
+        "args": [
+            {
+                "type": "Vec3",
+                "note": "位置"
+            }
+        ]
+    },
+    "waitForChunksToLoad": {
+        "note": "等待区块加载"
+    },
+    "writeBook": {
+        "note": "写书",
+        "args": [
+            {
+                "type": "number",
+                "note": "在背包的哪一格"
+            },
+            {
+                "type": "Array[string]",
+                "note": "每个字符串表示一页"
+            }
+        ]
+    },
+    "whisper": {
+        "note": "私聊某人",
+        "args": [
+            {
+                "type": "string",
+                "note": "游戏名"
+            },
+            {
+                "type": "string",
+                "note": "消息"
+            }
+        ]
+    },
+    "chat": {
+        "note": "在公屏发消息",
+        "args": [
+            {
+                "type": "string",
+                "note": "消息"
+            }
+        ]
+    },
+    "openContainer": {
+        "note": "打开容器",
+        "return": {
+            "type": "Window",
+            "note": "容器"
+        },
+        "args": [
+            {
+                "type": "Block|Entity",
+                "note": "要打开的容器"
+            }
+        ]
+    },
+    "craft": {
+        "note": "合成",
+        "args": [
+            {
+                "type": "Recipe",
+                "note": "配方"
+            },
+            {
+                "type": "number",
+                "note": "执行次数"
+            },
+            {
+                "type": "Block",
+                "note": "工作台方块（若配方无需工作台则不需要此参数）"
+            }
+        ]
+    },
+    "recipesAll": {
+        "note": "获取能够制作某物品的所有配方列表",
+        "return": {
+            "type": "Array[Recipe]",
+            "note": "配方实例的列表"
+        },
+        "args": [
+            {
+                "type": "number",
+                "note": "要合成的物品id"
+            },
+            {
+                "type": "null",
+                "note": "暂不支持设置，此项为空"
+            },
+            {
+                "type": "Block",
+                "note": "工作台方块，若此项为空，则仅会获取能在背包制作的配方"
+            }
+        ]
+    },
+    "targetDigBlock": {
+        "note": "正在挖的方块",
+        "return": {
+            "type": "block",
+            "note": "正在挖的方块"
+        }
+    },
+    "dig": {
+        "note": "挖某方块",
+        "args": [
+            {
+                "type": "Block",
+                "note": "方块"
+            }
+        ]
+    },
+    "canDigBlock": {
+        "note": "某方块是否在挖掘范围内",
+        "return": {
+            "type": "boolean",
+            "note": "是否在挖掘范围内"
+        },
+        "args": [
+            {
+                "type": "Block",
+                "note": "方块"
+            }
+        ]
+    },
+    "digTime": {
+        "note": "该方块的挖掘耗时（单位毫秒）",
+        "return": {
+            "type": "number",
+            "note": "挖掘耗时"
+        },
+        "args": [
+            {
+                "type": "Block",
+                "note": "方块"
+            }
+        ]
+    },
+    "openEnchantmentTable": {
+        "note": "打开附魔台",
+        "return": {
+            "type": "EnchantmentTable",
+            "note": "附魔台"
+        },
+        "args": [
+            {
+                "type": "Block",
+                "note": "附魔台方块"
+            }
+        ]
+    },
+    "entities": {
+        "note": "身边的实体列表",
+        "return": {
+            "type": "Array[Entity]",
+            "note": ""
+        }
+    },
+    "fireworkRocketDuration": {
+        "note": "烟花剩余时间",
+        "return": {
+            "type": "number",
+            "note": "烟花剩余时间"
+        }
+    },
+    "swingArm": {
+        "note": "播放挥舞手臂动画"
+    },
+    "attack": {
+        "note": "攻击一个实体",
+        "args": [
+            {
+                "type": "Entity",
+                "note": "实体"
+            }
+        ]
+    },
+    "mount": {
+        "note": "搭乘载具",
+        "args": [
+            {
+                "type": "Entity",
+                "note": "载具实体"
+            }
+        ]
+    },
+    "dismount": {
+        "note": "取消搭乘载具"
+    },
+    "useOn": {
+        "note": "对目标实体使用手持物品",
+        "args": [
+            {
+                "type": "Entity",
+                "note": "实体"
+            }
+        ]
+    },
+    "moveVehicle": {
+        "note": "移动载具",
+        "args": [
+            {
+                "type": "number",
+                "note": "负一为右，一为左"
+            },
+            {
+                "type": "number",
+                "note": "负一为前，一为后"
+            }
+        ]
+    },
+    "experience": {
+        "note": "经验信息",
+        "return": {
+            "type": "data[experience]",
+            "note": "经验信息"
+        }
+    },
+    "fish": {
+        "note": "钓鱼"
+    },
+    "openFurnace": {
+        "note": "打开熔炉",
+        "return": {
+            "type": "Furnace",
+            "note": "熔炉面板"
+        },
+        "args": [
+            {
+                "type": "Block",
+                "note": "熔炉方块"
+            }
+        ]
+    },
+    "game": {
+        "note": "游戏信息",
+        "return": {
+            "type": "data[game]",
+            "note": "游戏信息"
+        }
+    },
+    "isAlive": {
+        "note": "是否活着",
+        "return": {
+            "type": "Boolean",
+            "note": "是否活着"
+        }
+    },
+    "respawn": {
+        "note": "复活"
+    },
+    "quickBarSlot": {
+        "note": "当前哪个快捷栏被选择[0-8]",
+        "return": {
+            "type": "Number",
+            "note": "当前哪个快捷栏被选择"
+        }
+    },
+    "inventory": {
+        "note": "背包",
+        "return": {
+            "type": "Window",
+            "note": "背包"
+        }
+    },
+    "usingHeldItem": {
+        "note": "是否正在使用手持物品",
+        "return": {
+            "type": "boolean",
+            "note": "是否正在使用手持物品"
+        }
+    },
+    "activateBlock": {
+        "note": "互动某方块（右键方块）",
+        "args": [
+            {
+                "type": "Block",
+                "note": "目标方块"
+            }
+        ]
+    },
+    "activateEntity": {
+        "note": "互动某实体（右键实体）",
+        "args": [
+            {
+                "type": "Entity",
+                "note": "实体"
+            }
+        ]
+    },
+    "consume": {
+        "note": "吃东西"
+    },
+    "activateItem": {
+        "note": "激活手持物品（手持物品右键）",
+        "args": [
+            {
+                "type": "boolean",
+                "note": "是否为反手物品，若此项为空或false，则为正手物品，若为true则为反手物品"
+            }
+        ]
+    },
+    "deactivateItem": {
+        "note": "取消激活手持物品（手持物品右键松开，例如拉弓时松开右键）"
+    },
+    "closeWindow": {
+        "note": "关掉页面"
+    },
+    "openBlock": {
+        "note": "打开一个方块，获得该方块的打开窗口，例如箱子",
+        "return": {
+            "type": "Window",
+            "note": "打开的窗口"
+        },
+        "args": [
+            {
+                "type": "Block",
+                "note": "要打开的方块"
+            }
+        ]
+    },
+    "openEntity": {
+        "note": "打开一个有容器的实体，例如村民，获得打开的实体的窗口",
+        "return": {
+            "type": "Window",
+            "note": "打开的窗口"
+        },
+        "args": [
+            {
+                "type": "Entity",
+                "note": "要打开的实体"
+            }
+        ]
+    },
+    "moveSlotItem": {
+        "note": "在当前窗口，将某一格的物品移动到另一格",
+        "args": [
+            {
+                "type": "number",
+                "note": "从哪一格"
+            },
+            {
+                "type": "number",
+                "note": "移动到哪一格"
+            }
+        ]
+    },
+    "updateHeldItem": {
+        "note": "更新机器人的手持物品属性"
+    },
+    "quit": {
+        "note": "退出服务器",
+        "args": [
+            {
+                "type": "string",
+                "note": "推出出原因，此项可为空"
+            }
+        ]
+    },
+    "elytraFly": {
+        "note": "激活鞘翅"
+    },
+    "lookAt": {
+        "note": "看向某个位置",
+        "args": [
+            {
+                "type": "Vec3",
+                "note": "位置"
+            }
+        ]
+    },
+    "placeBlock": {
+        "note": "放置一个新的方块在一个已有方块的某个面上",
+        "args": [
+            {
+                "type": "Block",
+                "note": "已有方块"
+            },
+            {
+                "type": "Vec3",
+                "note": "已有方块的哪个面，他必须是以下值之一"
+            }
+        ]
+    },
+    "isRaining": {
+        "note": "是否正在下雨",
+        "return": {
+            "type": "boolean",
+            "note": "是否正在下雨"
+        }
+    },
+    "thunderState": {
+        "note": "当前雷暴等级",
+        "return": {
+            "type": "number",
+            "note": "当前雷暴等级"
+        }
+    },
+    "rainState": {
+        "note": "当前下雨等级",
+        "return": {
+            "type": "number",
+            "note": "当前下雨等级"
+        }
+    },
+    "blockAtCursor": {
+        "note": "获取指针对准的方块",
+        "return": {
+            "type": "Block",
+            "note": "方块"
+        },
+        "args": [
+            {
+                "type": "number",
+                "note": "搜索的最大距离，默认为256，此项可为空"
+            }
+        ]
+    },
+    "entityAtCursor": {
+        "note": "获取指针对准的实体",
+        "return": {
+            "type": "Entity",
+            "note": "实体"
+        },
+        "args": [
+            {
+                "type": "number",
+                "note": "搜索的最大距离，默认为3.5，此项可为空"
+            }
+        ]
+    },
+    "blockAtEntityCursor": {
+        "note": "获取某个实体指针对准的方块",
+        "return": {
+            "type": "Block",
+            "note": "方块"
+        },
+        "args": [
+            {
+                "type": "Entity",
+                "note": "实体"
+            },
+            {
+                "type": "number",
+                "note": "搜索的最大距离，默认为256，此项可为空"
+            }
+        ]
+    },
+    "settings": {
+        "note": "设置信息",
+        "return": {
+            "type": "data[settings]",
+            "note": "设置信息"
+        }
+    },
+    "equip": {
+        "note": "装备装备",
+        "args": [
+            {
+                "type": "Item|number",
+                "note": "某物品或物品id，若为物品id，则会装备搜索到的第一个此类物品"
+            },
+            {
+                "type": "string",
+                "note": "装备到哪一格，他必须是以下当中一个"
+            }
+        ]
+    },
+    "unequip": {
+        "note": "卸下装备",
+        "args": [
+            {
+                "type": "string",
+                "note": "卸下哪一格的装备，他必须是以下当中一个"
+            }
+        ]
+    },
+    "toss": {
+        "note": "投掷",
+        "args": [
+            {
+                "type": "number",
+                "note": "投掷的物品id"
+            }
+        ]
+    },
+    "setQuickBarSlot": {
+        "note": "选择手持哪一快捷栏物品",
+        "args": [
+            {
+                "type": "number",
+                "note": "快捷栏序号，此项必须是数字0"
+            }
+        ]
+    },
+    "QUICK_BAR_START": {
+        "note": "快捷栏在背包里的起始序号",
+        "return": {
+            "type": "Number",
+            "note": "快捷栏在背包里的起始序号"
+        }
+    },
+    "spawnPoint": {
+        "note": "出生点位置",
+        "return": {
+            "type": "Vec3",
+            "note": "出生点位置"
+        }
+    },
+    "time": {
+        "note": "时间信息",
+        "return": {
+            "type": "data[time]",
+            "note": ""
+        }
+    },
+    "openVillager": {
+        "note": "打开村民",
+        "return": {
+            "type": "Villager",
+            "note": "村民交易"
+        },
+        "args": [
+            {
+                "type": "Entity",
+                "note": "村民实体"
+            }
+        ]
+    },
+    "trade": {
+        "note": "与村民交易",
+        "args": [
+            {
+                "type": "Villager",
+                "note": "村民交易实例"
+            },
+            {
+                "type": "number",
+                "note": "交易序号"
+            }
+        ]
+    },
+    "openAnvil": {
+        "note": "打开铁砧",
+        "return": {
+            "type": "Anvil",
+            "note": "铁砧"
+        },
+        "args": [
+            {
+                "type": "Block",
+                "note": "铁砧方块"
+            }
+        ]
+    },
+    "world": {
+        "note": "",
+        "return": {
+            "type": "",
+            "note": ""
+        }
+    },
+    "entity": {
+        "note": "自身实体实例",
+        "return": {
+            "type": "Entity",
+            "note": "自身实体实例"
+        }
+    },
+    "username": {
+        "note": "服务器登录名",
+        "return": {
+            "type": "String",
+            "note": "服务器登录名"
+        }
+    },
+    "player": {
+        "note": "",
+        "return": {
+            "type": "",
+            "note": ""
+        }
+    }
+}

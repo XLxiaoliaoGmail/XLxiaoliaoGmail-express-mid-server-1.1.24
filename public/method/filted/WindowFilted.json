@@ -1,0 +1,45 @@
+{
+    "_count": 16,
+    "title": {
+        "note": "窗口标题",
+        "return": {
+            "type": "String",
+            "note": "窗口标题"
+        }
+    },
+    "slots": {
+        "note": "物品数组",
+        "return": {
+            "type": "Array[item]",
+            "note": "物品数组"
+        }
+    },
+    "inventoryStart": {
+        "note": "容器开始序号",
+        "return": {
+            "type": "Number",
+            "note": "容器开始序号"
+        }
+    },
+    "inventoryEnd": {
+        "note": "容器结束序号",
+        "return": {
+            "type": "Number",
+            "note": "容器结束序号"
+        }
+    },
+    "hotbarStart": {
+        "note": "快捷栏开始序号",
+        "return": {
+            "type": "Number",
+            "note": "快捷栏开始序号"
+        }
+    },
+    "craftingResultSlot": {
+        "note": "合成的输出栏序号",
+        "return": {
+            "type": "number",
+            "note": "合成的输出栏序号"
+        }
+    }
+}

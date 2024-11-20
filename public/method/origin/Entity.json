@@ -1,0 +1,302 @@
+{
+    "_count": 23,
+    "id": {
+        "note": "",
+        "return": {
+            "type": "Number",
+            "note": ""
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "position": {
+        "note": "位置",
+        "return": {
+            "type": "Vec3",
+            "note": "位置"
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "velocity": {
+        "note": "移动速度",
+        "return": {
+            "type": "Vec3",
+            "note": "移动速度"
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "yaw": {
+        "note": "偏航（-pi~+pi）",
+        "return": {
+            "type": "Number",
+            "note": "偏航（-pi~+pi）"
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "pitch": {
+        "note": "俯仰（-pi~+pi）",
+        "return": {
+            "type": "Number",
+            "note": "俯仰（-pi~+pi）"
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "onGround": {
+        "note": "是否在地上",
+        "return": {
+            "type": "Boolean",
+            "note": "是否在地上"
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "height": {
+        "note": "高度",
+        "return": {
+            "type": "Number",
+            "note": "高度"
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "width": {
+        "note": "宽度",
+        "return": {
+            "type": "Number",
+            "note": "宽度"
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "effects": {
+        "note": "",
+        "return": {
+            "type": "Object",
+            "note": ""
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "equipment": {
+        "note": "装备列表",
+        "return": {
+            "type": "Array",
+            "note": "装备列表"
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "isValid": {
+        "note": "",
+        "return": {
+            "type": "Boolean",
+            "note": ""
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "metadata": {
+        "note": "",
+        "return": {
+            "type": "Array",
+            "note": ""
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "username": {
+        "note": "",
+        "return": {
+            "type": "String",
+            "note": ""
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "type": {
+        "note": "",
+        "return": {
+            "type": "String",
+            "note": ""
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "name": {
+        "note": "",
+        "return": {
+            "type": "String",
+            "note": ""
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "eyeHeight": {
+        "note": "",
+        "return": {
+            "type": "Number",
+            "note": ""
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "attributes": {
+        "note": "",
+        "return": {
+            "type": "Object",
+            "note": ""
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "isInWater": {
+        "note": "是否在水中",
+        "return": {
+            "type": "Boolean",
+            "note": "是否在水中"
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "isInLava": {
+        "note": "是否在岩浆中",
+        "return": {
+            "type": "Boolean",
+            "note": "是否在岩浆中"
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "isInWeb": {
+        "note": "是否在蜘蛛网中",
+        "return": {
+            "type": "Boolean",
+            "note": "是否在蜘蛛网中"
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "isCollidedHorizontally": {
+        "note": "",
+        "return": {
+            "type": "",
+            "note": ""
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "isCollidedVertically": {
+        "note": "",
+        "return": {
+            "type": "Boolean",
+            "note": ""
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "elytraFlying": {
+        "note": "是否在飞行",
+        "return": {
+            "type": "Boolean",
+            "note": "是否在飞行"
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    }
+}

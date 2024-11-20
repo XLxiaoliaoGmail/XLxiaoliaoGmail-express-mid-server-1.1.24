@@ -1,0 +1,75 @@
+/* General */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+    overflow: hidden;
+}
+
+div#container {
+    height: 100%;
+    display: flex;
+}
+
+/* Sidebar */
+.sidebar {
+    background-color: #333;
+    color: white;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    transition: width 0.3s;
+    height: 100%;
+    z-index: 10;
+}
+.sidebar.collapsed {
+    width: 60px;
+}
+.toggle-btn {
+    background-color: #444;
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+}
+.menu-item {
+    padding: 15px;
+    text-align: left;
+    border: none;
+    background: none;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+.menu-item:hover {
+    background-color: #555;
+}
+
+/* Content Area */
+.content-area {
+    background-color: #f4f4f4;
+    flex: 1;
+    overflow: auto;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+    .sidebar.collapsed {
+        width: 0;
+        visibility: hidden;
+    }
+}
+
+button.new-bot-btn {
+    width: 20%;
+    margin-top: 10px;
+}
+
+.new-bot-btn-div {
+    justify-content: flex-end;
+    display: flex;
+}

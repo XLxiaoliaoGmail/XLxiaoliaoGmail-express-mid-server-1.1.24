@@ -1,0 +1,211 @@
+{
+    "_count": 16,
+    "acceptOutsideWindowClick": {
+        "note": "",
+        "return": {
+            "type": "Function",
+            "note": ""
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "acceptInventoryClick": {
+        "note": "",
+        "return": {
+            "type": "Function",
+            "note": ""
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "acceptNonInventorySwapAreaClick": {
+        "note": "",
+        "return": {
+            "type": "Function",
+            "note": ""
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "acceptSwapAreaLeftClick": {
+        "note": "",
+        "return": {
+            "type": "Function",
+            "note": ""
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "acceptSwapAreaRightClick": {
+        "note": "",
+        "return": {
+            "type": "Function",
+            "note": ""
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "acceptCraftingClick": {
+        "note": "",
+        "return": {
+            "type": "Function",
+            "note": ""
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "id": {
+        "note": "",
+        "return": {
+            "type": "",
+            "note": ""
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "type": {
+        "note": "",
+        "return": {
+            "type": "String",
+            "note": ""
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "title": {
+        "note": "窗口标题",
+        "return": {
+            "type": "String",
+            "note": "窗口标题"
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "slots": {
+        "note": "物品数组",
+        "return": {
+            "type": "Array[item]",
+            "note": "物品数组"
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "inventoryStart": {
+        "note": "容器开始序号",
+        "return": {
+            "type": "Number",
+            "note": "容器开始序号"
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "inventoryEnd": {
+        "note": "容器结束序号",
+        "return": {
+            "type": "Number",
+            "note": "容器结束序号"
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "hotbarStart": {
+        "note": "快捷栏开始序号",
+        "return": {
+            "type": "Number",
+            "note": "快捷栏开始序号"
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "craftingResultSlot": {
+        "note": "合成的输出栏序号",
+        "return": {
+            "type": "number",
+            "note": "合成的输出栏序号"
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "requiresConfirmation": {
+        "note": "",
+        "return": {
+            "type": "Boolean",
+            "note": ""
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    },
+    "selectedItem": {
+        "note": "",
+        "return": {
+            "type": "",
+            "note": ""
+        },
+        "args": [
+            {
+                "type": "",
+                "note": ""
+            }
+        ]
+    }
+}
